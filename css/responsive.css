@@ -1,0 +1,40 @@
+@media only screen and (max-width: 770px) {
+        h1 {
+            font-size: 2.8em;
+        }
+        h3 {
+            font-size: 1.2em;
+        }
+        li {
+            font-size: 1em;
+        }
+        .nav>li>a {
+            padding: 0 !important;
+        }
+
+        footer a {
+            font-size: 1em;
+        }
+
+      .large-text {
+      display: none;
+    }
+
+    .mobile-text {
+      display: display;
+        }
+    }
+
+@media only screen and (min-width: 770px) {
+    .large-text {
+      display: display;
+}
+
+    h3 {
+        font-size:1.6em
+        max-width: 500px !important;
+    }
+    .mobile-text {
+      display: none;
+    }
+}

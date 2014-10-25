@@ -1,0 +1,39 @@
+
+/*GLOBAL*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(./components.css);
+@import url(./form.css);
+@import url(./headerandfooter.css);
+@import url(./helpers.css);
+@import url(./modal.css);
+@import url(./responsive.css);
+
+.background {
+    background: url("../assets/Schoolhouse-cc1.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 0vh;
+    min-width: 90vw;
+    min-height: 95vh;
+    opacity: 0.6;
+    overflow: hidden;
+    position: relative;
+}
+ 
+ body {
+  font-family: "Raleway", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+
+ } 
+
+h1 {
+  font-size: 6em;
+}
+
+
+#logo {
+  opacity: 0.5;
+}
+
+

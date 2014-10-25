@@ -1,0 +1,24 @@
+/*HELPERS*/
+.center-div {
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.container {
+  width: 100%;
+}
+
+.inline {
+  position: inline;
+}
+
+small {
+  font-size: 1em;
+}
