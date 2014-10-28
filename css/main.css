@@ -2,22 +2,36 @@
 /*GLOBAL*/
 
 @import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(../fullpage.js/jquery.fullPage.css);
 @import url(./components.css);
 @import url(./form.css);
-@import url(./headerandfooter.css);
+@import url(./header_nav_footer.css);
 @import url(./helpers.css);
 @import url(./modal.css);
 @import url(./responsive.css);
 
+
 .background {
     background: url("../assets/Schoolhouse-cc1.jpg") no-repeat center;
     background-size: cover;
-    margin-top: 0vh;
-    min-width: 90vw;
-    min-height: 95vh;
+    margin-top: 5vh;
+    min-width: 100vw;
+    min-height: 90vh;
     opacity: 0.6;
     overflow: hidden;
     position: relative;
+}
+
+.background1 {
+    background: url("http://placekitten.com/800/1200") no-repeat center;
+}
+
+.background2 {
+    background: url("http://placekitten.com/g/800/1200") no-repeat center;
+}
+
+.background3 {
+    background: url("http://placekitten.com/a/800/1200") no-repeat center;
 }
  
  body {

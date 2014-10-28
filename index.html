@@ -11,10 +11,12 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>My Awesome App</title>
+    <meta name="keywords" content="schoolhouse, venture, investing, eduacation">
+    <title>Schoolhouse Partners</title>
     <link rel="stylesheet" src="http//normalize-css.googlecode.com/svn/trunk/normalize.css" />
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fullPage.js/jquery.fullPage.css" />
     <link rel="stylesheet" href="css/main.css">
 
     <!--[if lt IE 9]>
@@ -24,23 +26,74 @@
     <!--[if IE 6]><script type="text/javascript" src="scripts/DD_belatedPNG_0.0.8a-min.js"></script><![endif]-->
     <!--[if lt IE 8]><script src="scripts/font.js"></script><![endif]-->
 </head>
-<!-- ------------------- BODY ----------------- -->
+
 
 <body>
-    <div class="container">
-        <div class="background">
 
-            <header class="">
-                <div class="center-text">
-                    <img src="./assets/SHPlogo.gif" id="logo" class="" height="" width="" alt="Schoolhouse Partners logo">
-                    <h3 class="large-text pull-right">Creating value through insight and experience in the K-12 education markets</h3>
-                    <h3 class="mobile-text pull-right clear-both">Creating value in the K-12 education markets</h3>
+    <!-- ------------------- NAVBAR ----------------- -->
+    <nav>
+        <ul class="nav nav-tabs nav-justified">
+            <li> <a href="#aboutUs" title="">About Us</a>
+            </li>
+            <li> <a href="#strategicAdvisory" title="">Strategic Advisory Services</a>
+            </li>
+            <li><a href="#principalInvesting" title="">Early-stage Principal Investing</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- ------------------- LANDING PAGE ----------------- -->
+    <div class="container" id="fullpage">
+        <div class="section">
+            <div class="slide">
+                <div class="background">
+                    <header>
+                        <div class="center-text">
+                            <!-- <img src="./assets/SHPlogo.gif" id="logo" class="" height="" width="" alt="Schoolhouse Partners logo"> -->
+                            <h3 class="large-text pull-left">Creating value through insight and experience in the K-12 education markets</h3>
+                            <h3 class="mobile-text pull-left clear-both">Creating value in the K-12 education markets</h3>
+                        </div>
+                    </header>
                 </div>
+            </div>
+            <!-- ------------------- PAGES ----------------- -->
+            <div class="slide" id="aboutUs" >
+                <div class="background background1">
+                    <header>
+                        <div class="center-text">
+                            <!-- <img src="./assets/SHPlogo.gif" id="logo" class="" height="" width="" alt="Schoolhouse Partners logo"> -->
+                            <h3 class="large-text pull-left">Creating value through insight and experience in the K-12 education markets</h3>
+                            <h3 class="mobile-text pull-left clear-both">Creating value in the K-12 education markets</h3>
+                        </div>
+                    </header>
+                </div>
+            </div>
 
-            </header>
+            <div class="slide" id="strategicAdvisory">
+                <div class="background background2">
+                    <header>
+                        <div class="center-text">
+                            <!-- <img src="./assets/SHPlogo.gif" id="logo" class="" height="" width="" alt="Schoolhouse Partners logo"> -->
+                            <h3 class="large-text pull-left">Creating value through insight and experience in the K-12 education markets</h3>
+                            <h3 class="mobile-text pull-left clear-both">Creating value in the K-12 education markets</h3>
+                        </div>
+                    </header>
+                </div>
+            </div>
+
+            <div class="slide" id="principalInvesting">
+                <div class="background background3">
+                    <header>
+                        <div class="center-text">
+                            <!-- <img src="./assets/SHPlogo.gif" id="logo" class="" height="" width="" alt="Schoolhouse Partners logo"> -->
+                            <h3 class="large-text pull-left">Creating value through insight and experience in the K-12 education markets</h3>
+                            <h3 class="mobile-text pull-left clear-both">Creating value in the K-12 education markets</h3>
+                        </div>
+                    </header>
+                </div>
+            </div>
         </div>
         <!-- ------------------- MODALS ----------------- -->
-        <div id="aboutUs" class="modalDialog">
+        <div  class="modalDialog">
             <div> <a href="#close" title="Close" class="close">X</a>
 
                 <h2>About Us</h2>
@@ -49,7 +102,7 @@
             </div>
         </div>
 
-        <div id="strategicAdvisory" class="modalDialog">
+        <div  class="modalDialog">
             <div> <a href="#close" title="Close" class="close">X</a>
 
                 <h2>Strategic Advisory Services</h2>
@@ -58,7 +111,7 @@
             </div>
         </div>
 
-        <div id="principalInvesting" class="modalDialog">
+        <div  class="modalDialog">
             <div> <a href="#close" title="Close" class="close">X</a>
 
                 <h2>Early Stage Principal Investing</h2>
@@ -66,14 +119,13 @@
                 <p>As an early stage investor, Schoolhouse Partners identifies and funds promising companies in the K-12 and university spaces. Working closely with management, we improve each firm’s structure, strategy and operations in ways that strengthen market position and deliver superior returns to shareholders. Please contact us to discuss our investment criteria.</p>
             </div>
         </div>
-
+        <!-- ------------------------LOGIN MODAL---------------- -->
         <div id="Login" class="modalDialog">
             <div> <a href="#close" title="Close" class="close">X</a>
 
                 <h2>Client Login</h2>
 
                 <hr>
-
 
                 <form action="main_submit" method="#" accept-charset="utf-8">
 
@@ -96,14 +148,6 @@
         </div>
         <!-- ------------------- FOOTER ----------------- -->
         <footer class="navbar navbar-fixed-bottom">
-            <ul class="nav nav-tabs nav-justified">
-                <li> <a href="#aboutUs" title="">About Us</a>
-                </li>
-                <li> <a href="#strategicAdvisory" title="">Strategic Advisory Services</a>
-                </li>
-                <li><a href="#principalInvesting" title="">Early-stage Principal Investing</a>
-                </li>
-            </ul>
             <div class="text-center">
                 <span><a href="mailto:info@schoolhousepartners.com?subject=Hello Schoolhouse">info@schoolhousepartners.com</a>
                 </span>
@@ -117,10 +161,15 @@
         </footer>
     </div>
     <!--container-->
-    <link rel="stylesheet" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+
+
 </body>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="fullPage.js/vendors/jquery.easings.min.js"></script>
+<script src="fullPage.js/vendors/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="fullPage.js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
 </html>

@@ -1,13 +1,17 @@
 
 header {
+  min-height: 8em;
   padding: 1%;
   position: relative;
   top: 60vh;
-  background: rgba(255, 255, 255, 0.75)
+  background: rgba(30, 30, 30, 0.65);
+  
 }
 
 header>div {
   padding-bottom: -5%;
+  margin-left: 3%;
+  border: 1px solid white;
   /*width: 90%;*/
 }
 
@@ -21,10 +25,9 @@ hr {
 }
 
 
-header>div>h3 {
-  color: #336699 !important;
-  font-weight: 900;
-  margin-top: 3%;
+header h3 {
+  color: white;
+  margin: 3% 0 auto;
   padding-top: 0;
   z-index: 100;
 }
@@ -33,13 +36,11 @@ header>div>h3 {
 nav {
   /*top: 1em !important;*/
   margin: 0 auto;
+  top: 2em;
   position: relative;
   width: 80%; !important;
 }
 
-.navbar-fixed-top {
-  top: 3em;
-}
 
 footer {
   margin-top: 5em;
