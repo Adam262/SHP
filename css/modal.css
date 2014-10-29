@@ -19,7 +19,7 @@
     pointer-events: auto;
 }
 .modalDialog > div {
-    width: 50%;
+    width: 30%;
     height: 30%;
     position: relative;
     margin: 10% auto;
@@ -38,7 +38,7 @@
     right: 0;
     text-align: center;
     top: -4%;
-    width: 4%;
+    width: 6%;
     text-decoration: none;
     font-weight: bold;
     -webkit-border-radius: 12px;

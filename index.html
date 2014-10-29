@@ -16,7 +16,7 @@
     <link rel="stylesheet" src="http//normalize-css.googlecode.com/svn/trunk/normalize.css" />
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="fullPage.js/jquery.fullPage.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="fullPage.js/jquery.fullPage.css" /> -->
     <link rel="stylesheet" href="css/main.css">
 
     <!--[if lt IE 9]>
@@ -32,6 +32,11 @@
 
     <!-- ------------------- NAVBAR ----------------- -->
     <nav>
+       <!--  <div class="navbar navbar-left">
+            <a href="#" title="">
+                <img src="./assets/SHPlogo.gif" id="logo" class="" height="64" width="150" alt="Schoolhouse Partners logo">
+            </a>
+        </div> -->
         <ul class="nav nav-tabs nav-justified">
             <li> <a href="#aboutUs" title="">About Us</a>
             </li>
@@ -48,7 +53,6 @@
                 <div class="background">
                     <header>
                         <div class="center-text">
-                            <!-- <img src="./assets/SHPlogo.gif" id="logo" class="" height="" width="" alt="Schoolhouse Partners logo"> -->
                             <h3 class="large-text pull-left">Creating value through insight and experience in the K-12 education markets</h3>
                             <h3 class="mobile-text pull-left clear-both">Creating value in the K-12 education markets</h3>
                         </div>
@@ -56,13 +60,12 @@
                 </div>
             </div>
             <!-- ------------------- PAGES ----------------- -->
-            <div class="slide" id="aboutUs" >
+            <div class="slide" id="aboutUs">
                 <div class="background background1">
                     <header>
-                        <div class="center-text">
-                            <!-- <img src="./assets/SHPlogo.gif" id="logo" class="" height="" width="" alt="Schoolhouse Partners logo"> -->
-                            <h3 class="large-text pull-left">Creating value through insight and experience in the K-12 education markets</h3>
-                            <h3 class="mobile-text pull-left clear-both">Creating value in the K-12 education markets</h3>
+                        <div class="">
+                            <h3 class="large-text pull-left">
+                                Schoolhouse Partners was founded in 1998 by former members of the Parthenon Group, a strategy consulting firm based in Boston. Conceived as a firm entirely dedicated to creating improvements in public and post-secondary education, Schoolhouse builds enduring partnerships with our clients and portfolio companies. We help these organizations deliver better services to students and increased value to stakeholders.</h3>
                         </div>
                     </header>
                 </div>
@@ -71,10 +74,8 @@
             <div class="slide" id="strategicAdvisory">
                 <div class="background background2">
                     <header>
-                        <div class="center-text">
-                            <!-- <img src="./assets/SHPlogo.gif" id="logo" class="" height="" width="" alt="Schoolhouse Partners logo"> -->
-                            <h3 class="large-text pull-left">Creating value through insight and experience in the K-12 education markets</h3>
-                            <h3 class="mobile-text pull-left clear-both">Creating value in the K-12 education markets</h3>
+                        <div class="">
+                            <h3 class="large-text pull-left">Strategy is a set of choices – usually few in number – that differentiates an organization from its competitors in the minds of its customers. As a strategic advisor, Schoolhouse Partners helps its clients identify and make these choices in ways that generate sustainable performance and market leadership. Please contact us to discuss potential advisory engagements.</h3>
                         </div>
                     </header>
                 </div>
@@ -83,54 +84,27 @@
             <div class="slide" id="principalInvesting">
                 <div class="background background3">
                     <header>
-                        <div class="center-text">
-                            <!-- <img src="./assets/SHPlogo.gif" id="logo" class="" height="" width="" alt="Schoolhouse Partners logo"> -->
-                            <h3 class="large-text pull-left">Creating value through insight and experience in the K-12 education markets</h3>
-                            <h3 class="mobile-text pull-left clear-both">Creating value in the K-12 education markets</h3>
+                        <div class="">
+                            <h3 class="large-text pull-left">As an early stage investor, Schoolhouse Partners identifies and funds promising companies in the K-12 and university spaces. Working closely with management, we improve each firm’s structure, strategy and operations in ways that strengthen market position and deliver superior returns to shareholders. Please contact us to discuss our investment criteria.</h3>
                         </div>
                     </header>
                 </div>
             </div>
         </div>
-        <!-- ------------------- MODALS ----------------- -->
-        <div  class="modalDialog">
-            <div> <a href="#close" title="Close" class="close">X</a>
+        <! -- section -->
 
-                <h2>About Us</h2>
-
-                <p>Schoolhouse Partners was founded in 1998 by former members of the Parthenon Group, a strategy consulting firm based in Boston. Conceived as a firm entirely dedicated to creating improvements in public and post-secondary education, Schoolhouse builds enduring partnerships with our clients and portfolio companies. We help these organizations deliver better services to students and increased value to stakeholders.</p>
-            </div>
-        </div>
-
-        <div  class="modalDialog">
-            <div> <a href="#close" title="Close" class="close">X</a>
-
-                <h2>Strategic Advisory Services</h2>
-
-                <p>Strategy is a set of choices – usually few in number – that differentiates an organization from its competitors in the minds of its customers. As a strategic advisor, Schoolhouse Partners helps its clients identify and make these choices in ways that generate sustainable performance and market leadership. Please contact us to discuss potential advisory engagements.</p>
-            </div>
-        </div>
-
-        <div  class="modalDialog">
-            <div> <a href="#close" title="Close" class="close">X</a>
-
-                <h2>Early Stage Principal Investing</h2>
-
-                <p>As an early stage investor, Schoolhouse Partners identifies and funds promising companies in the K-12 and university spaces. Working closely with management, we improve each firm’s structure, strategy and operations in ways that strengthen market position and deliver superior returns to shareholders. Please contact us to discuss our investment criteria.</p>
-            </div>
-        </div>
         <!-- ------------------------LOGIN MODAL---------------- -->
         <div id="Login" class="modalDialog">
             <div> <a href="#close" title="Close" class="close">X</a>
 
-                <h2>Client Login</h2>
+                <h2>Signin</h2>
 
                 <hr>
 
                 <form action="main_submit" method="#" accept-charset="utf-8">
 
                     <span class="glyphicon glyphicon-user">
-                        <input type="text" name="login" value="" placeholder="login">
+                        <input type="text" name="login" value="" placeholder="username">
                     </span>
 
                     <span class="glyphicon glyphicon-lock">
@@ -146,22 +120,22 @@
                 </form>
             </div>
         </div>
-        <!-- ------------------- FOOTER ----------------- -->
-        <footer class="navbar navbar-fixed-bottom">
-            <div class="text-center">
-                <span><a href="mailto:info@schoolhousepartners.com?subject=Hello Schoolhouse">info@schoolhousepartners.com</a>
-                </span>
-                <span id="link-divide">|</span>
-                <span><a href="" title="">703-548-0855</a>
-                </span>
-                <span id="link-divide">|</span>
-                <span><a href="#Login" title="">Client Login</a>
-                </span>
-            </div>
-        </footer>
+
     </div>
     <!--container-->
-
+    <!-- ------------------- FOOTER ----------------- -->
+    <footer class="navbar navbar-fixed-bottom">
+        <div class="text-center">
+            <span><a href="mailto:info@schoolhousepartners.com?subject=Hello Schoolhouse">info@schoolhousepartners.com</a>
+            </span>
+            <span id="link-divide">|</span>
+            <span><a href="" title="">703-548-0855</a>
+            </span>
+            <span id="link-divide">|</span>
+            <span><a href="#Login" title="">Signin</a>
+            </span>
+        </div>
+    </footer>
 
 </body>
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
