@@ -11,8 +11,8 @@
     // Create some defaults, extending them with any options that were provided
     options = $.extend({
       //navigation
-      'menu': false,
-      'anchors':[],
+      'menu': '#menu',
+      'anchors':["section"],
       'navigation': false,
       'navigationPosition': 'right',
       'navigationColor': '#000',
@@ -21,7 +21,7 @@
       'slidesNavPosition': 'bottom',
 
       //scrolling
-      'css3': false,
+      'css3': true,
       'scrollingSpeed': 700,
       'autoScrolling': true,
       'easing': 'easeInQuart',
