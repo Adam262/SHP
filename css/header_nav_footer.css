@@ -1,15 +1,15 @@
 
 header {
-  min-height: 12em;
+  min-height: 10em;
   padding: 1%;
   position: relative;
-  top: 55vh;
-  background: rgba(30, 30, 30, 0.65);
+  top: 57vh;
+  background: rgba(20, 20, 20, 0.65);
   
 }
 
 header>div {
-  padding-bottom: -5%;
+ 
   margin-left: 3%;
   border: 1px solid white;
   /*width: 90%;*/
@@ -26,47 +26,45 @@ hr {
 
 
 header h3 {
-  color: white;
+  color: rgba(255,255,255,1);
+  font-family: "Open Sans Condensed", Helvetica, sans-serif;
   margin: 1% 0 auto;
-  padding-top: 0;
+  padding-top: 0 0 2% 0;
   z-index: 100;
 }
 
 #logo {
-  top: 0;
-
+  
+  line-height: 1;
   margin-right: 10%;
   padding-right: 5%;
+  top: 0;
   vertical-align: middle;
-  line-height: 1;
+ 
 }
 
 nav {
-  /*top: 1em !important;*/
-  margin: 0 auto;
-  top: 2em;
-  position: relative;
-  width: 90%; !important;
+  
+  margin-top: 0%;
+  padding: 1% 0 2% 0;
+  
 }
 
 
 footer {
   margin-top: 5em;
-
 }
-
+footer span {
+    color: white 
+}
 footer a {
-  animation: all 2s !important;
-  background: rgba(255,255,255,0);
+ 
+  background: rgba(0,0,0,0);
   border-radius: 5%;
   font-size: 1.2em;
   padding: 0.5%;
   text-decoration: none !important;
 }
 
-footer a:hover {
-  background: #EEE !important;
-  /*color: white !important;*/
-  opacity: 0.5;
-}
+
 
