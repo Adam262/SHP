@@ -21,7 +21,7 @@
       'slidesNavPosition': 'bottom',
 
       //scrolling
-      'css3': true,
+      'css3': false,
       'scrollingSpeed': 700,
       'autoScrolling': true,
       'easing': 'easeInQuart',
@@ -31,7 +31,7 @@
       'loopHorizontal': true,
       'continuousVertical': false,
       'fitSection': false,
-      'normalScrollElements': null,
+      'normalScrollElements': 'null',
       'scrollOverflow': false,
       'touchSensitivity': 5,
       'normalScrollElementTouchThreshold': 5,

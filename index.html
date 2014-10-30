@@ -40,36 +40,43 @@
 <body>
 
     <!-- ------------------- NAVBAR ----------------- -->
-    <nav class = "gradient">
+    <nav class="gradient">
         <!--  <div class="navbar navbar-left">
             <a href="#" title="">
                 <img src="./assets/SHPlogo.gif" id="logo" class="" height="64" width="150" alt="Schoolhouse Partners logo">
             </a>
         </div> -->
-        <ul class="nav nav-tabs nav-justified" id = "menu">
-            <li> <a href="#section/1" title="">About Us</a>
-            </li>
-            <li> <a href="#section/2" title="">Strategic Advisory Services</a>
-            </li>
-            <li><a href="#section/3" title="">Early-stage Principal Investing</a>
-            </li>
-        </ul>
+        <div>
+            <ul class="nav nav-tabs nav-justified" id="menu">
+                <li> <a href="#section/0" title="">Home</a>
+                </li>
+                <li> <a href="#section/1" title="">About Us</a>
+                </li>
+                <li> <a href="#section/2" title="">Strategic Advisory Services</a>
+                </li>
+                <li><a href="#section/3" title="">Early-stage Principal Investing</a>
+                </li>
+            </ul>
+
+        </div>
+
     </nav>
     <!-- ------------------- LANDING PAGE ----------------- -->
     <div class="container" id="fullpage">
-        <div class="section" id = "section">
-            <div class="slide">
+        <div class="section" id="section">
+            <div class="slide" data-anchor="0">
                 <div class="background">
                     <header>
-                        <div class="center-text">
-                            <h3 class="large-text pull-left">Creating value through insight and experience in the K-12 education markets</h3>
+                        <div class="">
+                            <h2>Schoolhouse Partners</h2>
+                            <h3 class="large-text pull-right">Creating value through insight and experience in the K-12 education markets</h3>
                             <h3 class="mobile-text pull-left clear-both">Creating value in the K-12 education markets</h3>
                         </div>
                     </header>
                 </div>
             </div>
             <!-- ------------------- PAGES ----------------- -->
-            <div class="slide">
+            <div class="slide" data-anchor="1">
                 <div class="background background1">
                     <header>
                         <div class="">
@@ -80,7 +87,7 @@
                 </div>
             </div>
 
-            <div class="slide">
+            <div class="slide" data-anchor="2">
                 <div class="background background2">
                     <header>
                         <div class="">
@@ -90,7 +97,7 @@
                 </div>
             </div>
 
-            <div class="slide">
+            <div class="slide" data-anchor="3">
                 <div class="background background3">
                     <header>
                         <div class="">
@@ -103,28 +110,31 @@
         <! -- section -->
 
         <!-- ------------------------LOGIN MODAL---------------- -->
-        <div id="Login" class="modalDialog">
+        <div id="login" class="modalDialog">
             <div> <a href="#close" title="Close" class="close">X</a>
 
                 <h2>Signin</h2>
 
                 <hr>
 
-                <form action="main_submit" method="#" accept-charset="utf-8">
+                <form action="#" method="#" accept-charset="utf-8">
 
                     <span class="glyphicon glyphicon-user">
-                        <input type="text" name="login" value="" placeholder="username">
+                        <input type="text" name="login" value="" placeholder="username" data-validation="alphanumeric" data-validation-help='username must be alphanumeric'required>
                     </span>
 
                     <span class="glyphicon glyphicon-lock">
-                        <input type="text" name="password" value="" placeholder="password">
+                        <input type="password" name="password" value="" placeholder="password" data-validation="length" data-validation-length="min8" data-validation-help='password must be at least 8 characters'>
                     </span>
 
-                    <div>
-                        <a href="#close">
-                            <span class="glyphicon glyphicon-send"></span>
+                    <div id = "send">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-send">
+                                <input id="submit" type="submit">
+                            </span>
                         </a>
                     </div>
+
 
                 </form>
             </div>
@@ -141,7 +151,7 @@
             <span><a href="" title="">703-548-0855</a>
             </span>
             <span id="link-divide">|</span>
-            <span><a href="#Login" title="">Signin</a>
+            <span><a href="#login" title="">Signin</a>
             </span>
         </div>
     </footer>
@@ -153,6 +163,8 @@
 <script src="fullPagejs/vendors/jquery.slimscroll.min.js"></script>
 <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="fullPagejs/jquery.fullPage.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.1.47/jquery.form-validator.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script> $.validate(); </script>
 
 </html>

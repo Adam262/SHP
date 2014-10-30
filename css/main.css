@@ -3,7 +3,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-@import url(../fullpagejs/jquery.fullPage.css);
+/*@import url(../fullpagejs/jquery.fullPage.css);*/
 @import url(./components.css);
 @import url(./form.css);
 @import url(./header_nav_footer.css);
@@ -24,7 +24,7 @@
 }
 
 .background1 {
-    background: url("../assets/bokeh.gif") no-repeat center;
+    background: url("../assets/forest.gif") no-repeat center;
     background-size: cover;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .background3 {
-    background: url("http://image.shutterstock.com/display_pic_with_logo/191182/149174159/stock-photo-empty-vintage-classroom-with-green-blackboard-against-brick-wall-rendering-149174159.jpg") no-repeat center;
+    background: url("../assets/schoolhouse_int.gif") no-repeat center;
     background-size: cover;
 }
  
@@ -48,10 +48,9 @@
  } 
 
 div.fp-tableCell {
-  background: rgba(20,20,20,0.8);
-}
-h1 {
-  font-size: 6em;
+  /*max-height: 90%;
+  max-width: 100%;*/
+  z-index: 1;
 }
 
 

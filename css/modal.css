@@ -18,8 +18,8 @@
     pointer-events: auto;
 }
 .modalDialog > div {
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     position: relative;
     margin: 10% auto;
     padding: 1% 4% 2% 4%;

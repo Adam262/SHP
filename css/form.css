@@ -1,8 +1,14 @@
+#login h2 {
+    color: rgba(20, 20, 20, 1);
+}
+#login hr {
+    border: 0.1em solid rgba(20, 20, 20, 1);
+}
 input {
-    /* background: rgba(255,255,255,0.50);*/
-    
+    background: rgba(255, 255, 255, 1);
     border-radius: 5%;
     border: 1px;
+    color: rgba(20, 20, 20, 1);
     margin: 2% 0 0 0;
     outline: none;
     padding: 1% 0 1% 0;
@@ -10,27 +16,39 @@ input {
 input:hover {
     background: #336699 !important;
     color: white !important;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 form img {
     float: right;
     height: 20%;
     width: 20%;
 }
-
 form a {
     display: block;
-    border: 1px solid black;
+    /* border: 1px solid black;*/
+    
     padding: 1% 1% 0 1%;
     margin-top: 1%;
     width: 2em;
 }
-
-
 form a:hover {
-   background: #336699 !important;
-  color: white !important;
-  opacity: 0.5;
-  border: none;
+    background: #336699 !important;
+    opacity: 0.8;
+    border: none;
+}
+form span {
+    color: rgba(20, 20, 20, 1);
+}
+form span:hover {
+    color: rgba(255, 255, 255, 1) !important;
 
+}
+
+.glyphicon glyphicon-send {
+}
+#send {
+    margin-top: 5%;
+}
+#submit {
+    display: none;
 }
