@@ -47,7 +47,7 @@ nav {
   
   margin-top: 0%;
   padding: 1% 0 1% 0;
-  position: absolute;
+  position: fixed;
   z-index: 999;
   
 }
@@ -58,11 +58,14 @@ nav div {
 }
 footer {
   bottom: 0;
-  margin-top: 0;
- padding-bottom: -2%;
   position: fixed;
+  width: 90%;
+  z-index: 999;
 
 }
+/*footer div {
+   text-align: center;
+}*/
 footer span {
     color: white 
 }
