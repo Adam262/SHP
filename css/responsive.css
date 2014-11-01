@@ -1,40 +1,94 @@
-@media only screen and (max-width: 770px) {
-        h1 {
-            font-size: 2.8em;
-        }
-        h3 {
-            font-size: 1.2em;
-        }
-        li {
-            font-size: 1em;
-        }
-        .nav>li>a {
-            padding: 0 !important;
-        }
+/*
+w * h
+mobile: 320px x 480px // iPhone 4 portrait
+mobile: 320px x 568px // iPhone 5 portrait 
+phablet        x 768px
+tablet: 768px x 1024px// iPad portrait
+notebook: 1280px x 800px 
 
-        footer a {
-            font-size: 1em;
-        }
 
-      .large-text {
-      display: none;
+*/
+/********** MOBILE**************/
+
+@media only screen and (max-width: 568px) {
+    /*   330: Schoolhouse Logo degrades  */
+    
+    header h2 {
+        font-size: 2em !important;
     }
+    /* 472: footer jumps into grey bar  */
+    
 
-    .mobile-text {
-      display: display;
-        }
-    }
-
-@media only screen and (min-width: 770px) {
-    .large-text {
-      display: display;
 }
+/********** PHABLET ***********/
 
-    h3 {
-        font-size:1.6em
-        max-width: 500px !important;
+@media only screen and (max-width: 800px){
+    /*  640: splash page subheading starts to jump */
+    
+    header h3 {
+        padding: 2% 0 1% 0;
+        font-size: 1.2em !important;
     }
-    .mobile-text {
-      display: none;
+    /* 768: links go to far left block */
+    
+    nav.gradient {
+        width: 100% !important;
     }
+    nav #menu>li>a {
+        padding: 1% 0 1% 0;
+    }
+    /******** Hamburger **********/
+    
+    #hamburger {
+        cursor: pointer;
+        margin: 1% 0 0 1%;
+    }
+    .collapsed {
+        height: 0;
+        opacity: 0;
+    }
+    .not-collapsed {
+        height: 12em;
+        opacity: 1;
+    }
+
+    .mobile-footer {
+        border-bottom: 1px solid white;
+    }
+    .mobile-footer span {
+        font-size: 0.7em;
+
+    }
+    .tabletAndUp {
+        display: none;
+    }
+
+}
+/********** TABLET *********/
+
+@media only screen and (min-width: 801px) {
+    /* of Links 1,2,3,4
+        803: both links degrade further
+        803: *** all fonts degrade  -- set font-size here !important ***
+        1150: link 3 degrades
+        1300: link 4 degrades
+    */
+    #hamburger {
+        display: none;
+    }
+    
+    nav a {
+        font-size: 1em !important;
+       /* width: 80%;*/
+    }
+
+        .mobile {
+        display: none;
+    }
+
+}
+/************ NOTEBOOK AND UP**************/
+
+@media only screen and (min-width: 1301px) {
+
 }

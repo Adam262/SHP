@@ -26,15 +26,16 @@ form img {
 form a {
     display: block;
     /* border: 1px solid black;*/
-    
-    padding: 1% 1% 0 1%;
     margin-top: 1%;
+    padding: 1% 1% 0 1%;
+    
     width: 2em;
 }
 form a:hover {
     background: #336699 !important;
+     border: none;
     opacity: 0.8;
-    border: none;
+   
 }
 form span {
     color: rgba(20, 20, 20, 1);
