@@ -27,7 +27,7 @@ notebook: 1280px x 800px
     
     header h3 {
         padding: 2% 0 1% 0;
-        font-size: 1.2em !important;
+        font-size: 1em !important;
     }
     /* 768: links go to far left block */
     
@@ -56,7 +56,7 @@ notebook: 1280px x 800px
         border-bottom: 1px solid white;
     }
     .mobile-footer span {
-        font-size: 0.7em;
+        font-size: 0.6em;
 
     }
     .tabletAndUp {
