@@ -44,10 +44,10 @@ form a:hover {
     opacity: 0.8;
    
 }
-form span {
+form div {
     color: rgba(20, 20, 20, 1);
 }
-form span:hover {
+form div:hover {
     color: rgba(255, 255, 255, 1) !important;
 
 }
