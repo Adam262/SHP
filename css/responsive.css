@@ -48,6 +48,10 @@ notebook: 1280px x 800px
     width: 70%;
     height: 30%;
 }
+
+input {
+    width: 100%;
+}
     /******** Hamburger **********/
     
     #hamburger {
