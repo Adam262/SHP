@@ -43,6 +43,11 @@ notebook: 1280px x 800px
     #login h2 {
         font-size: 2em;
     }
+
+   .modalDialog > div {
+    width: 70%;
+    height: 30%;
+}
     /******** Hamburger **********/
     
     #hamburger {
