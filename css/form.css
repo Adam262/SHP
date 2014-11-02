@@ -1,8 +1,14 @@
 #login h2 {
     color: rgba(20, 20, 20, 1);
+    margin: 1%;
+    padding: 1%;
+   
 }
 #login hr {
     border: 0.1em solid rgba(20, 20, 20, 1);
+    margin: 1%;
+ /*   //padding: 1%;*/
+   
 }
 input {
     background: rgba(255, 255, 255, 1);
@@ -12,6 +18,7 @@ input {
     margin: 2% 0 0 0;
     outline: none;
     padding: 1% 0 1% 0;
+    width: 70%;
 }
 input:hover {
     background: #336699 !important;
@@ -48,7 +55,7 @@ form span:hover {
 .glyphicon glyphicon-send {
 }
 #send {
-    margin-top: 5%;
+    padding-top: 5%;
 }
 #submit {
     display: none;

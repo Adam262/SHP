@@ -1,4 +1,5 @@
 /*@import url(http://fonts.googleapis.com/css?family=Raleway);*/
+
 .modalDialog {
     position: fixed;
     top: 0;
@@ -7,46 +8,41 @@
     left: 0;
     background: rgba(0, 0, 0, 0.8);
     z-index: 99999;
-    opacity:0;
+    opacity: 0;
     -webkit-transition: opacity 400ms ease-in;
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
     pointer-events: none;
 }
 .modalDialog:target {
-    opacity:1;
+    opacity: 1;
     pointer-events: auto;
 }
 .modalDialog > div {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     position: relative;
     margin: 10% auto;
     padding: 1% 4% 2% 4%;
-    border-radius: 10px;
+    border-radius: 10%;
     background: #fff;
     background: -moz-linear-gradient(#fff, #999);
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);
 }
 .close {
-    background: #606061;
-    color: #FFFFFF;
-    line-height: 1.25em;
-    position: absolute;
-    right: 0;
+    background: rgba(20, 20, 20, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 100%;
+    float: right;
+    height: 1.5em;
+    line-height: 1.5em;
+    padding: 1%;
     text-align: center;
-    top: -4%;
-    width: 6%;
-    text-decoration: none;
-    font-weight: bold;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: 1px 1px 3px #000;
+    width: 1.5em;
+ 
 }
 .close:hover {
-    background: #336699;
+    background: #336699 !important;
+    opacity: 0.8;
 }

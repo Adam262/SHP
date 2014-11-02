@@ -37,6 +37,12 @@ notebook: 1280px x 800px
     nav #menu>li>a {
         padding: 1% 0 1% 0;
     }
+
+    /* Style login form*/
+
+    #login h2 {
+        font-size: 2em;
+    }
     /******** Hamburger **********/
     
     #hamburger {
