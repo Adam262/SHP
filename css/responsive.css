@@ -71,12 +71,17 @@ input {
         border-bottom: 1px solid white;
     }
     .mobile-footer span {
-        font-size: 0.6em;
+        font-size: 0.7em;
 
+    }
+
+    .mobile {
+        display: block;
     }
     .tabletAndUp {
         display: none;
     }
+
 
 }
 /********** TABLET *********/
@@ -97,7 +102,15 @@ input {
        /* width: 80%;*/
     }
 
-        .mobile {
+    .mobile {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+    .tabletAndUp {
         display: none;
     }
 
@@ -105,5 +118,15 @@ input {
 /************ NOTEBOOK AND UP**************/
 
 @media only screen and (min-width: 1301px) {
+
+
+    .tablet {
+        display: none;
+    }
+
+    .tabletAndUp {
+        display: block;
+    }
+
 
 }

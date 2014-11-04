@@ -1,9 +1,16 @@
 $(document).ready(function() {
  
-    $('#fullpage').fullpage();
+    $('#fullpage').fullpage(
+    {
+      resize: false
+    });
     console.log("Got this far");
 
     $('#hamburger').on("click", function(){
+       $('#responsive').toggleClass("not-collapsed", 1000);
+    })
+
+    $('.mobile li a').on("click", function(){
        $('#responsive').toggleClass("not-collapsed", 1000);
     })
 });
