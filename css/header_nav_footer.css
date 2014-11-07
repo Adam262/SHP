@@ -73,7 +73,7 @@ nav li {
   display: inline-block;
 }*/
 footer {
-  bottom: 0;
+  bottom: 1em;
   position: fixed;
   width: 90%;
   z-index: 999;
