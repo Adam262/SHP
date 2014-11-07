@@ -81,7 +81,7 @@ footer {
 }
 
 footer span {
-    color: white;
+    color: rgba(255,255,255,1);
     display: inline; 
     z-index: 999;
 }
