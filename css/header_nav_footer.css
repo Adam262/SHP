@@ -76,13 +76,14 @@ footer {
   bottom: 1em;
   position: fixed;
   width: 90%;
-  z-index: 999;
+  z-index: 999 !important;
 
 }
 
 footer span {
     color: white;
     display: inline; 
+    z-index: 999;
 }
 footer a {
   background: rgba(0,0,0,0);
