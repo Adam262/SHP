@@ -42,14 +42,10 @@ header h3 {
 }
 
 #shp-logo {
-  
- /* line-height: 1;
-  margin-right: 10%;
-  padding-right: 5%;
-  top: 0;
-  vertical-align: middle;*/
- opacity: 1;
- z-index: 999;
+  height: 5em;
+  float: left;
+  position: relative;
+  z-index: 999;
 }
 
 nav {

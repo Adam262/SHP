@@ -10,7 +10,7 @@ $(document).ready(function() {
        $('#responsive').toggleClass("not-collapsed", 1000);
     })
 
-    $('.mobile li a').on("click", function(){
+    $('#menu a').on("click", function(){
        $('#responsive').toggleClass("not-collapsed", 1000);
     })
 });
