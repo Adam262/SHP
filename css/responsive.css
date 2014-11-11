@@ -26,8 +26,8 @@ notebook: 1280px x 800px
     /*  640: splash page subheading starts to jump */
     
     header h3 {
-        padding: 2% 1% 1% 0;
-        font-size: 1.2em !important;
+        padding: 3% 1% 1% 1%;
+        font-size: 1.1em !important;
     }
     /* 768: links go to far left block */
     
