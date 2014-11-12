@@ -16,10 +16,6 @@ header>div {
   margin: 0 auto;
 }
 
-header div img {
-  opacity: 1;
-  z-index: 999;
-}
 
 header h2 {
 
@@ -41,15 +37,9 @@ header h3 {
   z-index: 100;
 }
 
-#shp-logo {
-  height: 5em;
-  float: left;
-  position: relative;
-  z-index: 999;
-}
 
 nav {
-  
+  line-height: 0.8em;
   margin-top: 0%;
   padding: 1% 0 1% 0;
   position: fixed;
@@ -58,17 +48,11 @@ nav {
   
 }
 
-
 nav div {
   width: 95%;
   margin: 0 auto;
 }
-/*nav a {
-    text-decoration: none;
-}
-nav li {
-  display: inline-block;
-}*/
+
 footer {
   bottom: 0em;
   position: fixed;

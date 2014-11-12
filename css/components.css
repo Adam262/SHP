@@ -40,5 +40,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4757', end
   font-size: 1.5em;
 }
 
+#shp-logo {
+  height: 5em;
+  float: left;
+  margin-right: 2%;
+  position: relative;
+  z-index: 999;
+}
+
 
 
