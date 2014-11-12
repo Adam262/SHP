@@ -90,6 +90,10 @@ notebook: 1280px x 800px
     .mobile {
         display: block;
     }
+
+    .tablet {
+        display: none;
+    }
     .tabletAndUp {
         display: none;
     }

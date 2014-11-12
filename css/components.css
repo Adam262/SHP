@@ -11,14 +11,10 @@ a:hover {
 
 }
 
-/*.fp-controlArrow {
-  border: 1px solid white;
-  background: rgba(255,255,255,0);
+.fp-controlArrow {
+  z-index: 999;
 }
 
-.fp-controlArrow:active {
-  border: 1px solid black;
-}*/
 
 .gradient{
 
