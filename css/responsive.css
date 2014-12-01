@@ -24,7 +24,11 @@ notebook: 1280px x 800px
 
 @media only screen and (max-width: 800px){
     /*  640: splash page subheading starts to jump */
-    
+    header {
+        min-height: 10em;
+        top: 70vh;
+    }
+
     header h3 {
         padding: 3% 1% 1% 1%;
         font-size: 1.1em !important;
@@ -81,6 +85,7 @@ notebook: 1280px x 800px
 
     .mobile-footer {
         border-bottom: 1px solid white;
+        margin-bottom: 1%;
     }
     .mobile-footer span {
         font-size: 0.6em;
@@ -101,6 +106,14 @@ notebook: 1280px x 800px
     footer {
         display: none;
     }
+
+    /*** Photos**/
+    .background2a {
+    
+    background: url("../assets/web-3.jpg") no-repeat !important;
+    background-size: cover !important;
+    background-position: 25% 25% !important; 
+}
 
 
 }

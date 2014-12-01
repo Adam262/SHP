@@ -1,10 +1,10 @@
 
 header {
   background: rgba(10, 10, 10, 0.75);
-  min-height: 12.5em;
+  min-height: 12em;
   padding: 1%;
   position: relative;
-  top: 60vh;
+  top: 65vh;
 }
 header.landing {
   min-height: 10em;
@@ -30,7 +30,7 @@ padding-bottom: 0.5%;
 header h3 {
   color: rgba(255,255,255,1);
   font-family: "Open Sans Condensed", Helvetica, sans-serif;
-  font-size: 1.7em;
+  font-size: 1.5em;
   margin: 0.5% 1% 0 5%;
   padding: 0 0 2% 0;
   text-align: justify;
@@ -41,7 +41,8 @@ header h3 {
 nav {
   line-height: 0.8em;
   margin-top: 0%;
-  padding: 1% 0 1% 0;
+  opacity: .9;
+  padding: 1% 0 0 0;
   position: fixed;
   z-index: 999;
   width: 100%;
