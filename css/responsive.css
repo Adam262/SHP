@@ -140,11 +140,11 @@ notebook: 1280px x 800px
     }
 
     .tablet {
-        display: block;
+        display: block !important;
     }
 
     .tabletAndUp {
-        display: none;
+        display: none !important;
     }
 
   /*  footer {
