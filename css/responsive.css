@@ -31,7 +31,7 @@ notebook: 1280px x 800px
 
     header h3 {
         padding: 3% 1% 1% 1%;
-        font-size: 1.1em !important;
+        font-size: 1em !important;
     }
     /* 768: links go to far left block */
     
@@ -46,7 +46,7 @@ notebook: 1280px x 800px
     #shp-logo {
         display: block;
         float: none;
-        height: 3em;
+        height: 6em !important;
         margin: 0 auto;
         padding: 1%;
     }

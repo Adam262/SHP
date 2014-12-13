@@ -1,7 +1,7 @@
 a {
   color: rgba(255,255,255,1) !important;
   font-size: 1.25em;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 a:hover {
@@ -37,7 +37,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4757', end
 }
 
 #shp-logo {
-  height: 5em;
+  height: 7em;
   float: left;
   margin-right: 2%;
   position: relative;
