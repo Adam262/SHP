@@ -18,6 +18,10 @@
   width: 100%;
 }
 
+.display-none {
+  visibility: hidden; 
+}
+
 .float-left {
   display: block;
   float: left;
@@ -26,6 +30,10 @@
 .float-right {
   display: block;
   float: right;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 .inline {
