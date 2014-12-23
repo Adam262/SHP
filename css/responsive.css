@@ -25,7 +25,7 @@ notebook: 1280px x 800px
 @media only screen and (max-width: 800px){
     /*  640: splash page subheading starts to jump */
     header {
-        min-height: 10em;
+        min-height: 11em;
         top: 70vh;
     }
 
@@ -45,7 +45,7 @@ notebook: 1280px x 800px
     }
     nav #menu>li>a {
 
-        font-size: 1.2em !important;
+        font-size: 1.25em !important;
         margin-top: 0;
         padding: 1% 0 1% 1%;
 
@@ -92,9 +92,9 @@ notebook: 1280px x 800px
         border-bottom: 1px solid white;
         margin-bottom: 1%;
     }
-    .mobile-footer span {
-        font-size: 0.6em;
-
+    .mobile-footer span a {
+        font-size: 0.7em;
+        padding-bottom: 0.5%;
     }
 
     .mobile {
