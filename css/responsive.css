@@ -45,14 +45,16 @@ notebook: 1280px x 800px
     }
     nav #menu>li>a {
 
+        font-size: 1.2em;
         margin-top: 0;
         padding: 1% 0 1% 1%;
+
     }
     /*style logo*/
     #shp-logo {
         display: block;
         float: none;
-        height: 6em !important;
+        height: 5em !important;
         margin: 0 auto;
         padding: 1%;
     }
@@ -72,9 +74,6 @@ notebook: 1280px x 800px
     width: 5em !important;
 }
     /******** Hamburger **********/
-    #shp-logo {
-        height: 4.5em;
-    }
 
     #hamburger {
         cursor: pointer;
