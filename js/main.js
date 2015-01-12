@@ -4,7 +4,6 @@ $(document).ready(function() {
     {
       resize: false
     });
-    // console.log("Got this far");
 
     $('#hamburger').on("click", function(){
        $('#responsive').toggleClass("not-collapsed", 1000);
