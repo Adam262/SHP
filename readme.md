@@ -16,4 +16,4 @@ This is the mobile-responsive frontend redesign of a client site. The client wan
 
 **Get Started**
 
-Check out the live sitet: [schoolhousepartners.com](http://schoolhousepartners.com). 
+Check out the live site: [schoolhousepartners.com](http://schoolhousepartners.com). 
