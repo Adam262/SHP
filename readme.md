@@ -1,6 +1,6 @@
 **Overview**
 
-This is the frontend redesign of a client site. The client wanted a simple, clean and visual single page app.I suggested FullPage.js as a lightweight transition library with the interesting option of horizontal sections; vertical transitions seem a lot more common in SPAs.  
+This is the mobile-responsive frontend redesign of a client site. The client wanted a simple, clean and visual single page app.I suggested FullPage.js as a lightweight transition library with the interesting option of horizontal sections; vertical transitions seem a lot more common in SPAs.  
 
 **Technologies Used**
 
@@ -16,4 +16,4 @@ This is the frontend redesign of a client site. The client wanted a simple, clea
 
 **Get Started**
 
-Check out the deployed proof of concept at: [adam262.github.io/SHP](adam262.github.io/SHP). 
+Check out the live sitet: [schoolhousepartners.com](http://schoolhousepartners.com). 
